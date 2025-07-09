@@ -1,5 +1,6 @@
 # Real-time Log Analytics & Anomaly Detection (ELK Stack + Python)
 This repository contains a real-time ETL pipeline leveraging the ELK Stack (Elasticsearch, Logstash, Kibana) and Python for detecting anomalies in SSH system logs.
+*SSH system logs are synthetically generated.
 
 ## Overview
 
@@ -26,3 +27,12 @@ Clone this repository:
 ```bash
 git clone https://github.com/VamsiNirogi/elk-log-anomaly-detection.git
 cd elk-log-anomaly-detection
+
+## Run ELK Stack
+docker-compose up
+
+## Python setup
+pip install -r requirements.txt
+
+## Run anomaly detection
+python anomaly_detection.py
