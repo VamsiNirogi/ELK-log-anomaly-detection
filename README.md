@@ -28,11 +28,11 @@ Clone this repository:
 git clone https://github.com/VamsiNirogi/elk-log-anomaly-detection.git
 cd elk-log-anomaly-detection
 
-## Run ELK Stack
+# Run ELK Stack
 docker-compose up
 
-## Python setup
+# Python setup
 pip install -r requirements.txt
 
-## Run anomaly detection
+# Run anomaly detection
 python anomaly_detection.py
